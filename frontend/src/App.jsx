@@ -6,7 +6,7 @@ import VoiceCall from './components/VoiceCall'
 import GameVoting from './components/GameVoting'
 import MessageInput from './components/MessageInput'
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000/api'
+const API_URL = import.meta.env.VITE_API_URL || '/api'
 
 export default function App() {
   const [currentUser, setCurrentUser] = useState(null)
